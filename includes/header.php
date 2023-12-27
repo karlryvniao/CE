@@ -22,7 +22,7 @@
 </head>
 <body id="body">
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
-        <div class="app-header header-shadow">
+        <div style="z-index: 15;" class="app-header header-shadow">
             <div class="app-header__logo">
                 <a href="home.php"><div class="logo-src"></div></a>
                 <div class="header__pane ml-auto">

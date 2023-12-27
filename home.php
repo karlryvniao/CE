@@ -10,15 +10,13 @@ if(!isset($_SESSION['examineeSession']['examineenakalogin']) == true) header("lo
 
 <?php include("includes/ui-theme.php"); ?>
 
-<div class="app-main">
+<div  class="app-main">
 <?php include("includes/sidebar.php"); ?>
 
 
 
 <?php 
    @$page = $_GET['page'];
-
-
    if($page != '')
    {
      if($page == "exam")

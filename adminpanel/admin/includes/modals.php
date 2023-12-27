@@ -342,9 +342,46 @@
   </div>
 </div>
 
+<script>
+$('#summernote').summernote({
+  placeholder: 'Please Insert Answer',
+  tabsize: 2,
+  height: 120,
+  toolbar: [
+    ['style', ['style']],
+    ['font', ['bold', 'underline', 'clear']],
+    ['color', ['color']],
+    ['para', ['ul', 'ol', 'paragraph']],
+    ['table', ['table']],
+    ['insert', ['link', 'picture', 'video']],
+    ['view', ['fullscreen', 'codeview', 'help']]
+  ],
+  popover: {
+    image: [
+      ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
+      ['float', ['floatLeft', 'floatRight', 'floatNone']],
+      ['remove', ['removeMedia']]
+    ],
+    link: [
+      ['link', ['linkDialogShow', 'unlink']]
+    ],
+    table: [
+      ['add', ['addRowDown', 'addRowUp', 'addColLeft', 'addColRight']],
+      ['delete', ['deleteRow', 'deleteCol', 'deleteTable']],
+    ],
+    air: [
+      ['color', ['color']],
+      ['font', ['bold', 'underline', 'clear']],
+      ['para', ['ul', 'paragraph']],
+      ['table', ['table']],
+      ['insert', ['link', 'picture']]
+    ]
+  }
+});
 
+</script>
 <!-- Modules -->
-<script src="tinymce/js/tinymce/tinymce.min.js"></script>
+<!-- <script src="tinymce/js/tinymce/tinymce.min.js"></script>
 <script>
  tinymce.init({
     selector: 'textarea#myTextarea',
@@ -356,4 +393,4 @@
     tinydrive_google_drive_key: 'YOUR_GOOGLE_DRIVE_KEY',
     tinydrive_google_drive_client_id: 'YOUR_GOOGLE_DRIVE_CLIENT_ID'
       });
-</script>
+</script> -->

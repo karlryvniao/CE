@@ -1,8 +1,6 @@
 <?php 
   include("conn.php");
   include('query/selectData.php');
-
-
 ?>
 
 
@@ -152,6 +150,7 @@
       
         
 </div>
+<script type="text/javascript" src="js/summernote.js"></script>
 <script>
     
 
